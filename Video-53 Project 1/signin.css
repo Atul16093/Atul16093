@@ -1,0 +1,127 @@
+:root{
+    font-size: 16px;
+}
+body{
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(Assets/images/bg.jpg);
+    height: 103vh;
+    position: relative;
+}
+.main .box{
+ 
+    height: 103vh;
+    width: 100%;
+    opacity: 0.40;
+    background-color: black;
+    top: 0;
+    position: absolute;
+}
+.img{
+   margin: 35px;
+   margin-right: 58pc;
+   position: relative;
+   z-index: 1;
+}
+.blackbox{
+   min-width: 30vw;
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.484);
+    position: absolute;
+    bottom: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sign{
+    font-weight: bold;
+    margin-top: 36px;
+    margin-left: -200px;
+    color: rgb(255, 255, 255);   
+    position: relative;
+}
+.mailbox{
+   height: 7%;
+   margin-top: 38px;
+   width: 18vw;
+   border-radius: 6px;
+   position: relative;
+   padding-left: 12px;
+   background-color: rgba(0, 0, 0, 0.168);
+   border-color: white;
+   border-width: 1px;
+}
+.mailbox::placeholder{
+    color: rgba(255, 255, 255, 0.745);
+    
+}
+input{
+    color: white;
+}
+.signin{
+    width: 18vw;
+    margin-top: 45px;
+    padding: 9px;
+    border-radius: 6px;
+    background-color: red;
+    border-color: red;
+    border-style: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.text{
+    color: white;
+    font-size: 18px;
+    margin-top: 12px;
+    font-weight: 500;
+}
+.signin-code{
+    color: white;
+    background-color: rgba(148, 142, 142, 0.278);
+    border: none;
+    width: 18vw;
+    margin-top: 18px;
+    padding: 11px;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+n .text1{
+    margin-top: 18px;
+    font-size: 16px;
+}
+ .checkbox{
+    transform: scale(1.5);
+    margin-top: 25px;
+    margin-left: -330px;
+}
+.label{
+    font-size: 14px;
+    margin-top: -17px;
+    margin-left: -180px
+}
+.text2{
+    font-size: 15px;
+    margin-top: 28px;
+    color: rgb(176, 174, 174);
+}
+.signin:hover{
+    background-color: rgb(188, 8, 8);
+}
+.anchor{
+    color: white;
+    text-decoration: none;
+}
+.text3{
+    color: white;
+}
